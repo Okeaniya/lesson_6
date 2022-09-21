@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+	font-family:"Lato" sans-serif;
+	width: 817px;
+	margin: 10px 0 0 200px;
+}
+h1{
+	font-weight: 900;
+	font-size: 46px;
+	margin-bottom: 80px;
+
+}
+.blok-img{
+	margin-bottom: 58px;
+}
+.blok-bolt{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+	margin-bottom: 25px;
+}
+.blok{
+	color: #424551;
+	line-height: 1.6;
+	margin-bottom: 48px;
+}
+.blok-text{
+	margin-bottom: 24px;
+}
+.text-bolt{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color:  #1E212C;
+	padding: 0 10px 0 58px;
+	margin-bottom: 46px;
+}
+.blok-text-list{
+	color: #424551;
+	line-height: 1.6;
+}
+.text-list{
+	margin: 24px 0 24px 0;
+	padding: 0 15px 0 58px;
+} 
+footer{
+	text-align: center;
+	color: rgb(1, 14, 14);
+	margin: 20px 0 20px 0;
+}
+		/**Практика**/
+.text-border{
+	font-weight: 900;
+	font-size: 40px;
+	background-color: #424551;
+	color: beige;
+	margin: 50px;
+	padding: 10px;
+	border-top: 5px solid rgb(14, 215, 11);
+	border-left: 5px double rgb(180, 11, 151);
+	border-right: 5px dotted rgb(213, 223, 13);
+	border-bottom: 5px dashed rgb(10, 199, 233);
+}
+.text-radius{
+	width: 420px;
+	height: 280px;
+	padding: 65px 15px 30px 35px;
+	font-weight: 800;
+	font-size: 20px;
+	border-radius:57% 43% 62% 38% / 63% 22% 78% 37%;
+	background-color: rgba(37, 3, 160, 0.807);
+	color: bisque;
+	text-align: center;
+	margin-left: 100px;
+	margin-bottom: 25px;
+}
+.text-scroll{
+	width: 400px;
+	height: 300px;
+	font-weight: 700;
+	font-size: 35px;
+	border: 3px solid transparent;
+	border-radius: 30px;
+	margin-left: 150px;
+	padding: 10px;
+	overflow: auto;
+	background-color: rgba(47, 34, 128, 0.357);
+	margin-bottom: 20px;
+}
+.button{
+	font-size: 16px;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: rgb(29, 207, 148);
+	text-align: center;
+	padding-top: 65px;
+	margin: 0 50px 20px 200px;
+	box-shadow: 10px 10px 20px #033b44ea inset;
+}
+.button:hover{
+	font-size: 20px;
+	font-weight: 700;
+	box-shadow: 10px 10px 20px #033b44ea ;
+	background-color: rgb(57, 203, 154);
+}
